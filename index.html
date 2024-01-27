@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter - By Vansh Sikka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency <span>Converter</span></h1>
+        <form>
+            <div class="amount">
+                <p>Enter the Amount</p>
+                <input value="1" type="text" />
+            </div>
+            <div class="dropdown-menu">
+                <div class="FROM">
+                    <p>FROM</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" />
+                        <select name="FROM">
+                            <!-- <option value="USD">USD</option>
+                            <!-- Done using JS -->
+                        </select>
+                    </div>
+                </div>
+                <div class="TO">
+                    <p>TO</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" />
+                        <select name="TO">
+                            <!-- <option value="INR">INR</option>
+                            <!-- Done using JS -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg"></div>
+            <button id="msgBox" onclick="changeColor()">Convert</button>
+        </form>
+    </div>
+    <script src="./countryCodes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- By Vansh Sikka -->
